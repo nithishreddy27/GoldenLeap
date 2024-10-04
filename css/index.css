@@ -244,6 +244,7 @@ code {
   user-select: none;
   max-width: 300px;
   margin: 5rem auto;
+  margin-bottom: 0px;
   border: 1px solid #ffffff22;
   background-color: #282c34;
   background: linear-gradient(
@@ -955,6 +956,11 @@ code {
   }
   .logo-heading-bar-options {
     display: none;
+  }
+
+  .newSecurity {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
