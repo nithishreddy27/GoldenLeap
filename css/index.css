@@ -100,8 +100,12 @@ body {
 }
 
 .hero {
-  margin: 0px 200px;
+  margin: 0px 150px;
   display: flex;
+}
+
+.heroQoutePara {
+  margin-top: 10px;
 }
 .hero h1 {
   font-size: 60px;
@@ -129,9 +133,23 @@ body {
 }
 
 .heroQoute {
-  /* font-family: "Noto Serif Old Uyghur", serif;
-        font-weight: 100;
-        font-style: normal; */
+  font-family: "Noto Serif Old Uyghur", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.newSecurity {
+  min-height: 200px;
+  /* width: 100vw; */
+  overflow: hidden;
+  background-color: black;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.newSecurity p {
+  color: white;
+  text-align: center;
 }
 
 .informationSection {
